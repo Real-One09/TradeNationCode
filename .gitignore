@@ -1,6 +1,6 @@
 
-cypress/results/*
-cypress/reports/*
+cypress/*
+cypress/reports/*.html
 cypress/screenshots/*
 cypress/videos/*
 
