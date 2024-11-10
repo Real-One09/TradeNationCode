@@ -8,9 +8,6 @@
     "chromeTest": "npx cypress run --browser chrome"
    
 
-
-
-
   },
   "author": "",
   "license": "ISC",
