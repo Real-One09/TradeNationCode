@@ -16,8 +16,8 @@ before(function () {
 
   it('Verify the current page title after clicking on the Trade Nation logo', function () {
 
-   //const tradeNationPage = new TradeNationPage()
-   TradeNationPage.getPageNationLogo().click();
+   
+   TradeNationPage.getPageNationLogo().click({timeout:20000});
    TradeNationPage.getPageTitle().should('includes','Trade Nation UK – Low-Cost Spread Betting' )
   });
 });
