@@ -10,10 +10,9 @@ describe('Invalid Signup', function () {
         cy.fixture('example').then(function(data){
             this.data=data
         })
-       //cy.viewport(1280,800)
        cy.visit(Cypress.env('url')+'/signup/welcome/');
        cy.get('#onetrust-accept-btn-handler').click();
-       //cy.wait(2000)
+       
        })
     
     
@@ -27,10 +26,9 @@ describe('Invalid Signup', function () {
        
 
        it('should show password requirement errors for an invalid password', function() {
-       // const tradeNationPage = new TradeNationPage();
-       TradeNationPage.enterEmail().type(this.data.Validemail)
+        TradeNationPage.enterEmail().type(this.data.Validemail)
         TradeNationPage.enterPassword().type(this.data.InvalidPassword);
-       TradeNationPage.getPasswordError().should('be.visible').and('contain','Must have at least 8 characters');
+        TradeNationPage.getPasswordError().should('be.visible').and('contain','Must have at least 8 characters');
 
 
        })

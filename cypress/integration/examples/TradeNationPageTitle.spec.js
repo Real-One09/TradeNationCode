@@ -6,10 +6,8 @@ import TradeNationPage from "../../pageObjects/TradeNationPage";
 describe('Trade Nation Page Title Test', function () {
 
 before(function () {
-    // runs once before all tests in the block
-    //cy.viewport(1280, 800); 
+    
     cy.visit(Cypress.env('url')+'/en-gb/markets/#forex/');
-    //cy.wait(2000)
     cy.get('#onetrust-accept-btn-handler').click();
     })
 

@@ -1,10 +1,7 @@
 class TradeNationPage{
 
 
-    // visit() {
-    //       cy.visit('https://tradenation.com/en-gb/markets/#forex');
-    //     }
-
+    
 
   getPageNationLogo() {
 
