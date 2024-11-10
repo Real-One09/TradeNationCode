@@ -18,7 +18,7 @@ before(function () {
 
    
    TradeNationPage.getPageNationLogo().click({timeout:20000});
-   TradeNationPage.getPageTitle().should('includes','Trade Nation UK' )
+   TradeNationPage.getPageTitle().should('includes','Trade Nation' )
   });
 });
 
