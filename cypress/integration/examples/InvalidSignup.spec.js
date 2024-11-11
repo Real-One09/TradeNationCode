@@ -1,6 +1,3 @@
-//cypress -Spec, any testcase is call spec file
-
-//import TradeNationPage from '../../pageObjects/TradeNationPage'
 import TradeNationPage from '../../pageObjects/TradeNationPage'
 
 describe('Invalid Signup', function () {

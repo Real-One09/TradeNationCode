@@ -1,8 +1,6 @@
 class TradeNationPage{
 
 
-    
-
   getPageNationLogo() {
 
     return cy.get('.css-1juv1zg > img');
@@ -46,5 +44,3 @@ class TradeNationPage{
 }
 
 export default new TradeNationPage();
-
-//export default TradeNationPage;
