@@ -7,23 +7,23 @@ Local Runs: Step-by-Step Guide
 -cd <repository-directory>
 
 **Step 2:** Install dependencies
--npm install
+ - npm install
 
 **Step 3:**  Run Cypress tests in Headless Mode
--npm run test
+- npm run test
 
 **Step 4:** Run Cypress in Headed Mode
--npm run headTest
+- npm run headTest
 
 
 **Option 2**
 
 **Step 1:** Clone the repository
--git clone <repository-url>
--cd <repository-directory>
+- git clone <repository-url>
+- cd <repository-directory>
 
 **Step 2:** Install dependencies
--npm install
+- npm install
 
 **Step 3:** Cypress Test Runner 
 
